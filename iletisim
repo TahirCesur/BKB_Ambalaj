@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>İletişim</title>
+    <meta content="BKB Ambalaj: Üstün kalite ambalaj çözümleriyle ürünlerinizi koruyun ve markanızı öne çıkarın. Müşteri memnuniyeti bizim önceliğimizdir." name="description" />
+    <meta content="Ambalaj Çözümleri,Özgün Ambalaj,Ambalaj Tasarımı,Ürün Ambalajı,Ambalaj Malzemeleri,Ambalaj Firma,Ambalaj Üretimi,Kaliteli Ambalaj,Müşteri Memnuniyeti,Marka Ambalajı,Ambalaj Sektörü,Ambalaj Çeşitleri,Ambalaj Tasarımı,Ambalaj Ürünleri,Ambalaj Şirketi,Ekolojik Ambalaj,Ambalaj Ürün Çeşitleri,Özel Tasarım Ambalaj,Tekstil Amlajları,Gıda Ambalajları,Kağıt Ambalajlar,Yenilikçi Ürünler,Doypack Ambalajlar,Torbalar" name="keywords" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="16x16"  href="/assets/img/favicons/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("7LseggvnGoIcgGHia");
+      })();
+    </script>
+
+    <!-- =======================================================
+  * Template Name: Lumia - v4.9.1
+  * Template URL: https://bootstrapmade.com/lumia-bootstrap-business-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header
+      id="header"
+      class="sticky-top fixed-top"
+      style="background-color: #fff"
+    >
+      <div
+        class="topbar fixed-top sticky-top mt-0 p-1"
+        style="background-color: #161617; padding: px"
+      >
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+              <span class="topbar__wrapper">
+                <li class="text-white m-2" style="list-style: none">
+                  <span class="bx bxs-envelope-open" style="
+                  color: #fec921;"></span>
+                  <a href="mailto:info@bkbambalaj.com"  style="
+                  color: #fec921; font-size: 13px;"
+                    >&nbsp info@bkbambalaj.com</a
+                  >
+                </li>
+              </span>
+            </div>
+            <div class="d-flex">
+              <a href="iletisim.html">
+                <button
+                class="btn"
+                style="
+                  background-color: #fec921;
+                  padding: 3px 7px 3px 7px;
+                  font-size: 13px;
+                "
+                onclick="changeLanguage('tr')"
+              >
+                TR</button
+              ></a>&nbsp;
+              <a href="eniletisim.html">
+                <button
+                class="btn"
+                style="
+                  background-color: #fec921;
+                  padding: 3px 7px 3px 7px;
+                  font-size: 13px;
+                "
+                onclick="changeLanguage('en')"
+              >
+                EN</button
+              ></a>&nbsp;
+              <a href="pciletisim.html">
+                <button
+                class="btn"
+                style="
+                  background-color: #fec921;
+                  padding: 3px 7px 3px 7px;
+                  font-size: 13px;
+                "
+                onclick="changeLanguage('en')"
+              >
+                RU</button
+              ></a>&nbsp;
+              <a href="kyiletisim.html">
+                <button
+                class="btn"
+                style="
+                  background-color: #fec921;
+                  padding: 3px 7px 3px 7px;
+                  font-size: 13px;
+                "
+                onclick="changeLanguage('en')"
+              >
+                KG</button
+              ></a>&nbsp;
+              <a href="ariletisim.html">
+                <button
+                class="btn"
+                style="background-color: #fec921; padding: 3px; font-size: 13px"
+                onclick="changeLanguage('ar')"
+              >
+                عربي
+              </button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section
+        class="mt-0 mb-0 p-0"
+        style="border: 2px solid #fec921"
+      ></section>
+      <div
+        class="container d-flex align-items-center justify-content-center mt-2"
+      >
+        <a href="index.html" class="logo"
+          ><img
+            src="assets/img/logo2.png"
+            alt="BKB-Logo"
+            class="img-fluid"
+            width="124"
+            height="86"
+        /></a>
+        <h1 class="logo me-auto">
+          <a href="index.html" ></a>
+        </h1>
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li>
+              <a class="nav-link scrollto" href="/">Anasayfa</a>
+            </li>
+            <li><a class="nav-link scrollto" href="about.html">Hakkımızda</a></li>
+
+            <li class="nav-link dropdown">
+              <a href="product.html" class="nav-link scrollto"
+                ><span>Ürünlerimiz</span> <i class="bi bi-chevron-down" style="font-size: 15px"></i
+              ></a>
+              <ul>
+                <li>
+                  <a
+                    href="tekstil.html"
+                    class="nav-link scrollto"
+                    >Tekstil Ambalajları</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="gida.html"
+                    class="nav-link scrollto"
+                    >Gıda Ambalajları</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="kare-tabanli.html"
+                    class="nav-link scrollto"
+                    >Kare Tabanlı Torbalar</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="doypack.html"
+                    class="nav-link scrollto"
+                    >Doypack Torbalar</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="yan-koruk.html"
+                    class="nav-link scrollto"
+                    >Yan Körüklü Torbalar</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="kagit.html"
+                    class="nav-link scrollto"
+                    >Kağıt Ambalajlar</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="yenilikci.html"
+                    class="nav-link scrollto"
+                    >Yenilikçi Ürünlerimiz</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li><a class="nav-link scrollto" href="uretim.html">Üretim</a></li>
+            <li><a class="nav-link scrollto active" href="iletisim.html">İletişim</a></li>
+            <li class="header-social-links d-flex align-items-center">
+              <a href="https://www.instagram.com/bkbambalaj/" target="_blank" class="Instagram"><i class="bi bi-instagram"></i></a>
+              <a href="https://wa.me/905434079323"target="_blank" class="whatsApp"><i class="bi bi-whatsapp"></i></i></a>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+      </div>
+    </header>
+    <section class="mt-0 mb-0 p-0" style="border: 2px solid #fec921"></section>
+
+    <!-- ======= Contact ======= -->
+    <section id="what-we-do" class="what-we-do section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h2>İletişim</h2>
+          <p>Soru, görüş, öneri ve istekleriniz için aşağıdaki bilgiler aracılığıyla bize 7/24 ulaşabilirsiniz .</p>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center ">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-mobile"></i></div>
+              <h4><a href="" >GSM</a></h4>
+              <p> 
+                <a href="tel:+02242116266">0224 211 62 66</a><br />
+                <span class=""><a href="tel:+905434079323">0543 407 93 23</a></span><br />
+                <span class="text-white">Altınova Mh. Fuar Cd. Buttim İş Merkezi A Blok 4.Kat No:4033</span>
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center mt-4 mt-md-0"
+          >
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxs-envelope-open"></i></div>
+              <h4><a href="">EMAİL</a></h4>
+              <p>
+                <a href="mailto:info@bkbambalaj.com">info@bkbambalaj.com</a><br />
+                <span class="text-white">0224 211 62 66</span><br />
+                <span class="text-white">Altınova Mh. Fuar Cd. Buttim İş Merkezi A Blok 4.Kat No:4033</span>
+              <br />
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center mt-4 mt-lg-0"
+          >
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxs-navigation"></i></div>
+              <h4><a href="">ADRES</a></h4>
+              <p>
+                Altınova Mh. Fuar Cd. Buttim İş Merkezi A Blok 4.Kat
+                No:4033
+                <br />Osmangazi / BURSA
+                <br />
+                <span class="text-white">0224 211 62 66</span>
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center mt-4 mt-lg-0"
+          >
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxs-navigation"></i></div>
+              <h4><a href="">KIRGIZİSTAN</a></h4>
+              <p>     
+                Кыргызстан; Бишкек. к.Виноградная 1/1. 720082 <br>
+                <span class="text-white">Altınova Mh. Fuar Cd. Buttim İş Merkezi A Blok 4.Kat No:4033</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container contact mt-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 custom-gap">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3045.7328526602423!2d29.063398875206037!3d40.23724166654529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ca3fc6d917271f%3A0xe62f33c9c9df812e!2sButtim%20Bursa%20Uluslararas%C4%B1%20Tekstil%20Ticaret%20Merkezi!5e0!3m2!1str!2str!4v1691322197916!5m2!1str!2str"
+              class="google-map__one"
+              allowfullscreen=""
+              style="border:#c6c6c6 1px solid; border-radius: 5px;"
+            ></iframe>
+          </div>
+          <div class="col-lg-6 custom-gap">
+            <form
+            action=""
+            method="post"
+            role="form"
+            class="php-email-form"
+            style="border:#c6c6c6 1px solid"
+            >
+          <div class="row">
+            <div class="form-group col-md-6">
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Adınız"
+                required
+              />
+            </div>
+            <div class="form-group col-md-6 form-group mt-3 mt-md-0">
+              <input
+                type="email"
+                class="form-control"
+                name="email" 
+                id="email"
+                placeholder="Emailiniz"
+                required
+              />
+            </div>
+            <div class="form-group mt-3">
+              <input
+                type="text"
+                class="form-control"
+                id="subject"
+                name="subject"
+                placeholder="Konu"
+                required
+              />
+            </div>
+            <div class="form-group mt-3">
+              <textarea class="form-control" id="message" rows="5" placeholder="Mesajınız"></textarea>
+            </div>
+            <div class="text-center mt-3">
+              <button type="submit" id="button" onclick="sendMail()">Gönder</button>
+            </div>
+          </div>
+            </form>
+          </div>
+          
+        </div>
+        <div class="row mt-5 justify-content-center">
+            
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
+
+        <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 footer-contact">
+              <a href="index.html" class="logo"><img
+                src="assets/img/logo3.png"
+                alt="BKB-Logo"
+                class="img-fluid"
+                width="200"
+                height="126"
+            /></a>
+            <br>
+            <br>
+            <br>
+            <br>
+
+              <p>
+                <strong style="color:#fec921;font-size: 14px;">Adres : </strong>Altınova Mh. Fuar Cd. <br />
+                Buttim İş Merkezi<br />
+                A Blok 4.Kat No : 4033 <br />
+                Osmangazi / BURSA<br /><br />
+                <span class="bx bxs-phone-call" style="
+                color: #fec921;"></span>
+                <a href="tel:+02242116266"  style="
+                color: #fec921;"
+                  >&nbsp 0224 211 62 66</a
+                ><br />
+                <span class="bx bxs-envelope-open" style="
+                color: #fec921;"></span>
+                <a href="mailto:info@bkbambalaj.com"  style="
+                color: #fec921;"
+                  >&nbsp info@bkbambalaj.com</a
+                >
+              </p>
+            </div>
+
+            <div class="col-lg-4 col-md-6 footer-links">
+              <h4>Kurumsal</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="/index.html">Anasayfa</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="about.html">Hakkımızda</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="product.html">Ürünlerimiz</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="uretim.html">Üretim</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="iletisim.html">İletişim</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-6 footer-links">
+              <h4>Ürünlerimiz</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="tekstil.html">Tekstil Ambalajları</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="gida.html">Gıda Ambalajları</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="kare-tabanli.html">Kare Tabanlı Torbalar</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="doypack.html">Doypack Torbalar</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="yan-koruk.html">Yan Körüklü Torbalar</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="kagit.html">Kağıt Ambalajlar</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="yenilikci.html">Yenilikçi Ürünlerimiz</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container d-md-flex py-4">
+        <div class="me-md-auto text-center text-md-start">
+          <div class="copyright">
+            &copy; <a href="https://bkbambalaj.com/" class="text-white">BKB Ambalaj</a> <strong><span>2022.</span></strong
+            > Tüm Hakları Saklıdır.
+          </div>
+          <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/lumia-bootstrap-business-template/ -->
+            <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+          </div>
+        </div>
+        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+          <a href="https://www.instagram.com/bkbambalaj/" target="_blank" class="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="https://wa.me/905434079323" target="_blank" class="whatsApp"><i class="bi bi-whatsapp"></i></i></a>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+    <a
+      href="https://wa.me/905434079323"
+      class="back-to-tops d-flex align-items-center justify-content-center"
+      target="_blank"
+    ><i class="bi bi-whatsapp"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+    <script>
+      function sendMail() {
+   var params = {
+     name: document.getElementById("name").value,
+     email: document.getElementById("email").value,
+     subject: document.getElementById("subject").value,
+     message: document.getElementById("message").value,
+   };
+ 
+   const serviceID = "service_bxkizbu";
+   const templateID = "template_giqb4o4";
+ 
+     emailjs.send(serviceID, templateID, params)
+     .then(res=>{
+         document.getElementById("name").value = "";
+         document.getElementById("email").value = "";
+         document.getElementById("subject").value = "";
+         document.getElementById("message").value = "";
+         console.log(res);
+         alert("Mesajınız Başarıyla Gönderildi!")
+ 
+     })
+     .catch(err=>console.log(err));
+ 
+ }
+    </script>
+
+  </body>
+</html>
