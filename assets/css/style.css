@@ -1327,7 +1327,8 @@ section {
   margin: 30px;
   text-align: center;
   min-height: 350px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+  /* box-shadow: 10px 8px  #fec921,  1px 1px 10px 8px  #161617; */
   /*   border-top:#48414180 solid 2px;
   border-left:#48414180 solid 2px;
   box-shadow: #e9b408 5px 5px, #48414180 8px 8px; */
