@@ -408,6 +408,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
+  width: 100%;
 }
 
 #hero .carousel-item::before {
@@ -2114,8 +2115,6 @@ video {
   object-fit: cover; /* Videoyu video konteynerine sığdır */
 }
 
-
-
 /* Video Stili */
 .video-container video {
   width: 100%;
@@ -2139,7 +2138,6 @@ video {
   background-color: #f7f7f7; /* Arka plan rengini isteğinize göre ayarlayabilirsiniz */
 }
 
-
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
@@ -2148,7 +2146,7 @@ video {
   margin-top: -100px;
 }
 
-.why-us .icon-box+.icon-box {
+.why-us .icon-box + .icon-box {
   margin-top: 50px;
 }
 
@@ -2306,7 +2304,6 @@ video {
   }
 }
 
-
 /*--------------------------------------------------------------
 # heros Section
 --------------------------------------------------------------*/
@@ -2460,5 +2457,138 @@ video {
   }
 }
 
+.carousel-inner .carousel-item,
+.carousel-inner .active.carousel-item-start,
+.carousel-inner .active.carousel-item-end {
+  opacity: 0;
+}
 
+.carousel-inner .active,
+.carousel-inner .carousel-item-next.carousel-item-start,
+.carousel-inner .carousel-item-prev.carousel-item-end {
+  opacity: 1;
+  transition: 0.5s;
+}
 
+.carousel-control-next,
+.carousel-control-prev {
+  background: none;
+  font-size: 25px;
+  line-height: 0;
+  width: auto;
+  height: auto;
+  background: #000;
+  color: #fff;
+  border-radius: 5px;
+  transition: 0.3s;
+  color: fff;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  margin-top: 220px;
+}
+
+@media (max-width: 1200px) {
+  .carousel-control-next,
+  .carousel-control-prev {
+    margin-top: 180px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .carousel-control-next,
+  .carousel-control-prev {
+    margin-top: 180px;
+  }
+}
+
+@media (max-width: 992px) {
+  .carousel-control-next,
+  .carousel-control-prev {
+    margin-top: 140px;
+  }
+}
+
+@media (max-width: 780px) {
+  .carousel-control-next,
+  .carousel-control-prev {
+    margin-top: 110px;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-control-next,
+  .carousel-control-prev {
+    margin-top: 90px;
+  }
+}
+@media (max-width: 480px) {
+  .carousel-control-next,
+  .carousel-control-prev {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 360px) {
+  .carousel-control-next,
+  .carousel-control-prev {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 325px) {
+  .carousel-control-next,
+  .carousel-control-prev {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 250px) {
+  .carousel-control-next,
+  .carousel-control-prev {
+  }
+}
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+  background: #fec921;
+  color: #000 !important;
+}
+
+.carousel-indicators li {
+  cursor: pointer;
+  background: #000000;
+  overflow: hidden;
+  border: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.carousel-indicators li.active {
+  opacity: 1;
+  background: #fec921;
+  color: #000;
+}
+
+.btn-get-started {
+  font-size: 36px;
+  display: inline-block;
+  padding: 4px 0;
+  border-radius: 50px;
+  transition: 0.3s ease-in-out;
+  margin: 0px;
+  width: 64px;
+  height: 64px;
+  text-align: center;
+  border: 2px solid #000000;
+  color: #000000;
+}
+
+.btn-get-started:hover {
+  padding-top: 8px;
+  /* background: #fec921; */
+  background: #000000;
+}
